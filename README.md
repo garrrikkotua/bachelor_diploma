@@ -14,3 +14,5 @@ Broadly, calculations involve four main steps:
 
 All cimputations are done in the tensor fashion (because they are quite heavy) and implemented via Numpy arrays. One can simply use Numba to speed up computations (GPU version of Numpy),
 however the last part with Vegas integration requires converting Numba tensors back to Numpy. Unfortunately, it kills all the perfomance. That's why caching is used as a complexity-perfomance trade-off.
+
+![Alt Text](3xmode.gif)
